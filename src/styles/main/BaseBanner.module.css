@@ -1,0 +1,332 @@
+.baseBanner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.baseBanner>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.baseBanner>div h1 {
+    color: white;
+    font-size: 5em;
+    margin: 0 20px;
+
+}
+
+.baseBanner>div p {
+    color: white;
+    font-size: 2.25em;
+}
+
+.baseBanner h5 {
+    font-size: 1.7em;
+    color: #AE5620;
+    font-weight: 400;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 5000;
+
+
+
+}
+
+
+
+.baseBanner>div:first-of-type {
+    width: 32%;
+    height: 100%;
+    background-color: #68D0AF;
+    position: relative;
+    z-index: 11;
+}
+
+.baseBanner>div:last-of-type {
+    width: 32%;
+    height: 100%;
+    background-color: #D2D86F;
+    position: relative;
+    z-index: 11;
+}
+
+.brownPart {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 36%;
+    background-color: #612818;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.brownPart p {
+    text-transform: uppercase;
+}
+
+.brownPartTop {
+    background-color: #612818;
+    width: 100%;
+    height: 120px;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+    top: -60px;
+
+}
+
+.brownPartLeft {
+    background-color: #68D0AF;
+    height: 100%;
+    width: 120px;
+    border-radius: 0 50% 50% 0;
+    position: absolute;
+    left: -60px;
+}
+
+.brownPartRight {
+    background-color: #D2D86F;
+    height: 98%;
+    width: 120px;
+    border-radius: 50% 0 0 50%;
+    position: absolute;
+    right: -60px;
+}
+
+.brownCoffee {
+    width: 90%;
+    height: 225px;
+    position: absolute;
+    bottom: -170px;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+
+    .baseBanner>div:first-of-type {
+        width: 30%;
+
+    }
+
+    .baseBanner>div:last-of-type {
+        width: 30%;
+
+    }
+
+    .brownPart {
+
+        width: 40%;
+
+    }
+
+    .brownCoffee {
+        width: 90%;
+        height: 250px;
+        position: absolute;
+        bottom: -170px;
+        z-index: 5;
+        right: 0;
+        left: 0;
+        margin: auto;
+    
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+
+    .baseBanner {
+        display: block;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .brownPartTop {
+        display: none;
+
+    }
+
+    .brownPartLeft {
+        display: none;
+    }
+
+    .brownPartRight {
+        display: none;
+    }
+
+    .baseBanner>div:first-of-type {
+        width: 90%;
+        margin: 0 5%;
+        height: 400px;
+        position: static;
+        padding: 50px 0;
+    }
+
+    .baseBanner>div:last-of-type {
+        width: 90%;
+        margin: 0 5%;
+        height: 450px;
+        position: static;
+
+
+
+    }
+
+    .brownPart {
+        position: relative;
+        width: 90%;
+        margin: 0 5%;
+        padding: 50px 0;
+
+        height: 400px;
+        background-color: #612818;
+
+
+    }
+
+    .brownCoffee {
+        bottom: -125px;
+        height: 150px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .baseBanner {
+        display: block;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .brownPartTop {
+        display: none;
+
+    }
+
+    .brownPartLeft {
+        display: none;
+    }
+
+    .brownPartRight {
+        display: none;
+    }
+
+    .baseBanner>div:first-of-type {
+        width: 90%;
+        margin: 0 5%;
+        height: 400px;
+        position: static;
+        padding: 50px 0;
+    }
+
+    .baseBanner>div:last-of-type {
+        width: 90%;
+        margin: 0 5%;
+        height: 450px;
+        position: static;
+        padding-top: 100px;
+        padding-bottom: 50px;
+
+
+    }
+
+    .brownPart {
+        position: relative;
+        width: 90%;
+        margin: 0 5%;
+        padding: 50px 0;
+
+        height: 400px;
+        background-color: #612818;
+
+
+    }
+
+
+
+    .brownCoffee {
+        bottom: -125px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .baseBanner {
+        display: block;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .baseBanner>div {
+        padding: 50px 0;
+    }
+
+    .brownPartTop {
+        display: none;
+
+    }
+
+    .brownPartLeft {
+        display: none;
+    }
+
+    .brownPartRight {
+        display: none;
+    }
+
+    .baseBanner>div:first-of-type {
+        width: 100%;
+        height: 400px;
+        position: static;
+        padding: 50px 0;
+    }
+
+    .baseBanner>div:last-of-type {
+        width: 100%;
+        height: 500px;
+        position: static;
+        padding-top: 50px;
+        padding-bottom: -50px;
+
+
+    }
+
+    .brownPart {
+        position: relative;
+        padding-top: 50px;
+
+        height: 400px;
+        width: 100%;
+
+
+    }
+
+
+    .brownCoffee {
+        width: 100%;
+        height: 225px;
+        position: absolute;
+        bottom: -150px;
+        z-index: 5;
+
+
+    }
+
+}

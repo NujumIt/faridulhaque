@@ -1,0 +1,361 @@
+.baseDetails {
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F4;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.baseDetailsImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.baseDetails>p {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.baseDetails>h2 {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 50px;
+}
+
+.baseDetails>div {
+    width: 80%;
+    margin: 0 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.baseDetails>div>div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.baseItemCard {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 50px;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #b8b4b4; */
+}
+
+.baseDetails>div>div:first-of-type .baseItemCard {
+    flex-direction: row;
+
+}
+
+.baseItemCardImage {
+    width: 60px;
+    height: auto;
+}
+
+.baseDetails>div>div:first-of-type .baseItemCard div {
+    width: 80%;
+}
+
+.baseDetails>div>div:first-of-type .baseItemCard p {
+    text-align: right;
+    font-size: 17px;
+
+}
+
+.baseDetails>div>div:first-of-type .baseItemCard h2 {
+    text-align: right;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+
+.baseDetails>div>div:last-of-type .baseItemCard {
+
+    flex-direction: row-reverse;
+
+}
+
+.baseDetails>div>div:last-of-type .baseItemCard div {
+    width: 80%;
+}
+
+.baseDetails>div>div:last-of-type .baseItemCard p {
+    text-align: left;
+    font-size: 17px;
+
+}
+
+.baseDetails>div>div:last-of-type .baseItemCard h2 {
+    text-align: left;
+    font-size: 21px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+.baseItemCard h2 {
+    font-size: 3em;
+}
+
+.baseItemCard p {
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+
+    .baseDetails {
+
+        padding-top: 75px;
+        padding-bottom: 50px;
+        margin-top: 0;
+    }
+
+
+    .baseDetailsImage {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 5;
+        opacity: 0.2;
+        /* display: none; */
+    }
+
+    .baseDetails>div {
+        width: 96%;
+        margin: 2%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 6;
+
+    }
+
+    .baseDetails>div>div {
+        width: 45%;
+    }
+
+
+
+    .baseItemCardImage {
+        width: 55px;
+        height: auto;
+    }
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+
+    .baseDetails {
+
+        padding-top: 75px;
+        padding-bottom: 50px;
+        margin-top: 0;
+    }
+
+
+    .baseDetailsImage {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 5;
+        opacity: 0.2;
+        /* display: none; */
+    }
+
+    .baseDetails>div {
+        width: 96%;
+        margin: 2%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: 6;
+
+    }
+
+    .baseDetails>div>div {
+        width: 45%;
+    }
+
+
+    .baseItemCardImage {
+        width: 50px;
+        height: auto;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+
+    .baseDetails {
+        padding-top: 50px;
+        margin-top: -50px;
+        padding-bottom: 25px;
+        position: static;
+    }
+
+    .baseDetails>p {
+        font-size: 1.5em;
+        margin-top: 50px;
+
+
+    }
+
+    .baseDetails>h2 {
+        font-size: 3.5em;
+    }
+
+    .baseDetailsImage {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .baseDetails>div {
+        width: 96%;
+        margin: 0 2%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .baseDetails>div>div {
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .baseItemCard {
+        width: 94%;
+        margin: 25px 3%;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .baseItemCard>div {
+        margin: 0;
+        width: 75%;
+        
+    }
+
+    .baseItemCardImage {
+        width: 40px;
+        height: auto;
+    }
+
+    /* .baseDetails>div>div:first-of-type .baseItemCard p {
+        text-align: right;
+        font-size: 17px;
+    
+    }
+    
+    .baseDetails>div>div:first-of-type .baseItemCard h2 {
+        text-align: right;
+        font-size: 21px;
+        font-weight: 400;
+    } */
+}
+@media only screen and (max-width: 599px) {
+
+    .baseDetails {
+        padding-top: 50px;
+        margin-top: -50px;
+        padding-bottom: 25px;
+        position: static;
+    }
+
+    .baseDetails>p {
+        font-size: 1.5em;
+        margin-top: 50px;
+
+
+    }
+
+    .baseDetails>h2 {
+        font-size: 3.5em;
+    }
+
+    .baseDetailsImage {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .baseDetails>div {
+        width: 96%;
+        margin: 0 2%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .baseDetails>div>div {
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .baseItemCard {
+        width: 94%;
+        margin: 25px 3%;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .baseItemCard>div {
+        margin: 0;
+        width: 75%;
+        
+    }
+
+    .baseItemCardImage {
+        width: 40px;
+        height: auto;
+    }
+
+    /* .baseDetails>div>div:first-of-type .baseItemCard p {
+        text-align: right;
+        font-size: 17px;
+    
+    }
+    
+    .baseDetails>div>div:first-of-type .baseItemCard h2 {
+        text-align: right;
+        font-size: 21px;
+        font-weight: 400;
+    } */
+}

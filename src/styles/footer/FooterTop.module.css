@@ -1,0 +1,195 @@
+.footerTop {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.footerTop>div {
+    width: 80%;
+    margin: 0 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+.footerLogo {
+    width: 225px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.socialIcons {
+    width: 40%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socialIcons>span {
+    width: 70px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.socialIcons>span:hover {
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0);
+    transition: all 0.5s linear;
+}
+
+.socialIcon {
+    color: white;
+    font-size: 2em;
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .footerTop {
+        height: 150px;
+       
+    }
+
+    .footerTop>div {
+        width: 90%;
+        margin: 0 5%;
+
+    
+    }
+
+    .socialIcons>span {
+        width: 50px;
+        height: 60px;
+        border-radius: 50%;
+
+    }
+
+    .socialIcons {
+        width: 50%;
+        
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .footerTop {
+        height: 120px;
+        width: 100%;
+        padding-top: 25px;
+        background-color: rgb(0, 0, 0, 0.3);
+    }
+
+    .footerTop>div {
+        width: 90%;
+        margin: 0 5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .socialIcons>span {
+        width: 40px;
+        height: 50px;
+        border-radius: 50%;
+
+    }
+
+    .socialIcons {
+        width: 50%;
+        
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+
+    .footerTop {
+        height: 120px;
+        width: 100%;
+        padding-top: 25px;
+        background-color: rgb(0, 0, 0, 0.3);
+    }
+
+    .footerTop>div {
+        width: 90%;
+        margin: 0 5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .socialIcons>span {
+        width: 40px;
+        height: 50px;
+        border-radius: 50%;
+
+    }
+
+    .socialIcons {
+        width: 50%;
+        
+    }
+}
+
+
+@media only screen and (max-width: 599px) {
+
+    .footerTop {
+        height: 150px;
+        width: 100%;
+        padding-top: 25px;
+        background-color: rgb(0, 0, 0, 0.3);
+    }
+    .footerLogo {
+        width: auto;
+        height: auto;
+    }
+
+    .footerTop>div {
+        width: 90%;
+        margin: 0 5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footerLogo {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .socialIcons {
+        width: 100%;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .socialIcons>span {
+        width: 30px;
+        height: 40px;
+        border-radius: 50%;
+
+    }
+
+    .socialIcon {
+        color: white;
+        font-size: 1.5em;
+    }
+
+}

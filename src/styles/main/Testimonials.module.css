@@ -1,0 +1,333 @@
+.testimonials {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonials>div {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.testimonials>div>div:first-of-type {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    align-items: flex-start;
+}
+
+
+
+.textContainer {
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+
+}
+
+.textContainer p {
+    font-size: 20px;
+    color: #242424;
+    margin-bottom: 10px;
+}
+
+.textContainer h1 {
+    font-size: 100px;
+    margin-top: 10px;
+    color: #7b3826;
+}
+
+.textContainer h2 {
+    font-size: 50px;
+    color: #242424;
+    margin-bottom: 10px;
+}
+
+
+.imageContainer {
+    width: auto;
+    height: auto;
+}
+
+.testimonialImage {
+    width: 400px;
+    height: auto;
+    opacity: 1;
+}
+
+/* last of type is being used for the right part of the section, which contains the text and button for dealer part. */
+.testimonials>div>div:last-of-type {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.testimonials>div>div:last-of-type>p:first-of-type {
+    font-size: 20px;
+    color: #242424;
+    margin-bottom: 20px;
+}
+
+.testimonials>div>div:last-of-type h1 {
+    font-size: 50px;
+    color: #242424;
+    margin-bottom: 20px;
+}
+
+
+.testimonials>div>div:last-of-type>p:last-of-type {
+    font-size: 1.3em;
+    color: #242424;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+.buttonContainer {
+    width: 100%;
+    height: 100px;
+
+}
+
+.buttonContainer button {
+    padding: 15px 25px;
+    color: white;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin: 20px 10px 0 0;
+    cursor: pointer;
+}
+
+.buttonContainer button:first-of-type {
+
+    background-color: #7b3826;
+
+}
+
+.buttonContainer button:first-of-type:hover {
+    background-color: #242424;
+
+}
+
+.buttonContainer button:last-of-type {
+    background-color: #242424;
+
+}
+
+.buttonContainer button:last-of-type:hover {
+    background-color: #7b3826;
+
+
+}
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+    .testimonials>div {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        z-index: 50;
+        margin-top: -25px;
+
+    }
+
+    .imageContainer {
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        left: 20%;
+        /* display: none; */
+    }
+
+    .testimonialImage {
+        opacity: .5;
+    }
+
+    .testimonials>div>div:first-of-type {
+        display: flex;
+        width: 50%;
+    }
+
+    .textContainer {
+        width: 100%;
+        position: relative;
+        z-index: 20;
+    }
+
+    .testimonials>div>div:last-of-type {
+        width: 50%;
+        position: relative;
+        z-index: 15;
+    }
+
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .testimonials>div {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        z-index: 50;
+        margin-top: -25px;
+
+    }
+
+    .imageContainer {
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        left: 20%;
+        /* display: none; */
+    }
+
+    .testimonialImage {
+        opacity: .5;
+    }
+
+    .testimonials>div>div:first-of-type {
+        display: flex;
+        width: 50%;
+    }
+
+    .textContainer {
+        width: 100%;
+        position: relative;
+        z-index: 20;
+    }
+
+    .testimonials>div>div:last-of-type {
+        width: 50%;
+        position: relative;
+        z-index: 15;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+
+    .testimonials>div {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        z-index: 50;
+        margin-top: -25px;
+
+    }
+
+    .imageContainer {
+        position: absolute;
+        top: 0;
+        z-index: 10;
+        left: 20%;
+        /* display: none; */
+    }
+
+    .testimonialImage {
+        opacity: .5;
+    }
+
+    .testimonials>div>div:first-of-type {
+        display: flex;
+        width: 50%;
+    }
+
+    .textContainer {
+        width: 100%;
+        position: relative;
+        z-index: 20;
+    }
+
+    .testimonials>div>div:last-of-type {
+        width: 50%;
+        position: relative;
+        z-index: 15;
+    }
+
+}
+
+
+@media only screen and (max-width: 599px) {
+
+    .testimonials{
+        margin-top: 20px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .testimonials>div {
+        width: 90%;
+        height: 100%;
+        display: block;
+        position: relative;
+        z-index: 5;
+        margin-top: 0;
+    }
+
+    .testimonials>div>div:first-of-type {
+        display: flex;
+        width: 96%;
+        margin: 10px 2%;
+    }
+
+
+
+    .textContainer {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 15;
+    }
+
+    .textContainer p {
+
+        margin-bottom: 5px;
+    }
+
+    .imageContainer {
+
+        position: absolute;
+        z-index: 5;
+        opacity: 0.5;
+        left: 50%;
+        /* display: none; */
+        top: 0;
+    }
+
+
+    .textContainer h2 {
+        font-size: 40px;
+    }
+
+    .testimonials>div>div:last-of-type {
+        display: flex;
+        width: 96%;
+        margin: 10px 2%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .testimonials>div>div:last-of-type>p:first-of-type {
+
+        margin-bottom: 10px;
+    }
+
+    .testimonials>div>div:last-of-type h1 {
+        font-size: 40px;
+        color: #242424;
+        margin-bottom: 10px;
+    }
+}

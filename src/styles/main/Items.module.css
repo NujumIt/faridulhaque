@@ -1,0 +1,232 @@
+.items {
+    height: 500px;
+    width: 80%;
+    margin: 0 10%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+
+
+}
+
+/* .items :not(:nth-child(2)) {
+    overflow: hidden;
+
+} */
+
+.itemCard,
+.itemCardMid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.itemCard h3,
+.itemCardMid h3 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.itemCard p,
+.itemCardMid p {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.itemCard {
+    align-items: center;
+}
+
+.itemCardMid {
+    align-items: flex-end;
+}
+
+.itemCard>div {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: #612818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.itemCardMid>div {
+    background-color: #612818;
+    width: 100%;
+    height: 115%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    z-index: 10000;
+
+}
+
+.brownCoffee {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -150px;
+    z-index: 10000;
+
+}
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+
+    .itemCardMid>div {
+        height: 110%;
+    }
+
+    .brownCoffee {
+
+        bottom: -140px;
+    }
+
+    .items {
+        height: 500px;
+        width: 96%;
+        margin: 0 2%;
+        height: 475px;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 959px) {
+    .items {
+        width: 100%;
+        margin: 0;
+        height: 350px;
+    }
+
+    .itemImage {
+        width: 50%;
+        height: 40%;
+        margin-top: 50px;
+    }
+
+    .itemCard>div,
+    .itemCardMid>div {
+        justify-content: start;
+    }
+
+    .itemCardMid>div {
+        height: 110%;
+
+    }
+
+    .itemCard h3,
+    .itemCardMid h3 {
+        font-size: 2em;
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .itemCard p,
+    .itemCardMid p {
+        font-size: 1.25em;
+        text-align: center;
+        margin: 0 5px;
+    }
+
+    .brownCoffee {
+        height: 175px;
+        bottom: -125px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 739px) {
+    .items {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    .itemCard,
+    .itemCardMid {
+        height: 475px;
+        position: static;
+    }
+
+    .itemCardMid>div {
+        height: 100%;
+    }
+
+    .brownCoffee {
+        bottom: -140px;
+    }
+
+    .itemCard h3,
+    .itemCardMid h3 {
+        font-size: 3em;
+        text-align: center;
+        margin: 12.5px 0;
+
+    }
+
+    .itemCard p,
+    .itemCardMid p {
+        font-size: 2em;
+        text-align: center;
+        margin: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .items {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    .itemCard,
+    .itemCardMid {
+        height: 500px;
+        position: static;
+    }
+
+    .itemCardMid>div {
+        height: 100%;
+    }
+
+    .brownCoffee {
+        bottom: -140px;
+    }
+
+    .itemCard h3,
+    .itemCardMid h3 {
+        font-size: 2em;
+        text-align: center;
+        margin: 12.5px 0;
+
+    }
+
+    .itemCard p,
+    .itemCardMid p {
+        font-size: 1.25em;
+        text-align: center;
+        margin: 0 6px;
+    }
+
+
+}
