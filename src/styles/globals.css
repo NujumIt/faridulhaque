@@ -66,6 +66,7 @@ textarea::placeholder {
   box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
   background-color: #612818;
   cursor: pointer;
+  z-index: 50000;
 }
 
 .chevron-icon {
@@ -77,6 +78,8 @@ textarea::placeholder {
   left: 0;
   right: 0;
   margin: auto;
+  z-index: 50000;
+
 }
 
 .onTop{
