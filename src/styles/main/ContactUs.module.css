@@ -2,14 +2,17 @@
     width: 100%;
     height: 700px;
     position: relative;
+    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 50px;
 }
 
 
 .contactUs form {
     width: 30%;
-    height: 100%;
+    height: auto;
     background-color: #C09457;
+    padding-bottom: 50px;
     /* background-color: #F4F4F4; */
     display: flex;
     flex-direction: column;
@@ -101,14 +104,14 @@
 
 
 @media only screen and (min-width: 960px) and (max-width: 1280px) {
-   
+
     .contactUs form {
         width: 34%;
         margin: 0 33%;
-        height: 90%;
-    
+        padding-bottom: 50px;
+
     }
-   
+
 }
 
 @media only screen and (min-width: 740px) and (max-width: 959px) {
@@ -117,44 +120,46 @@
         width: 50%;
         margin: 0 25%;
         height: 85%;
-    
+
     }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 739px) {
-    
+
     .contactUs form {
         width: 60%;
         margin: 0 20%;
-        height: 90%;
-    
+        height: auto;
+        padding-bottom: 50px;
+
     }
+
+
 
 }
 
 
 @media only screen and (max-width: 599px) {
 
+    .contactUs {
+        background-color: red;
+        padding-bottom: -50px;
+
+    }
+
     .contactUs form {
         width: 96%;
         margin: 0 2%;
-        height: 100%;
-    
+        height: auto;
+        padding-bottom: 50px;
+        margin-top: 25px;
+
+
     }
 
-    .contactUsImage:first-of-type {
-        left: 0;
-        transform: rotate(180deg);
+    .contactUsImage {
         display: none;
-    
-    }
-    
-    .contactUsImage:last-of-type {
-        right: 0;
-    
-        width: 100%;
-        height: auto
     }
 
     .contactUs form>div {
@@ -166,8 +171,8 @@
     .contactUs button {
         width: 90%;
         margin: 0 5%;
-      
-    
+
+
     }
 
 }

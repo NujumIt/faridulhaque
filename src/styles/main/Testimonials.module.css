@@ -2,7 +2,6 @@
     width: 100%;
     height: auto;
     padding: 50px 0;
-    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -264,6 +263,7 @@
 
     .testimonials{
         margin-top: 20px;
+        margin-bottom: 20px;
         height: auto;
         padding-bottom: 25px;
     }
@@ -280,7 +280,7 @@
     .testimonials>div>div:first-of-type {
         display: flex;
         width: 96%;
-        margin: 10px 2%;
+        margin: 25px 2%;
     }
 
 
@@ -315,8 +315,10 @@
     .testimonials>div>div:last-of-type {
         display: flex;
         width: 96%;
-        margin: 10px 2%;
-        height: 100%;
+        margin-left:  2%;
+        margin-right:  2%;
+        padding-bottom: 50px;
+        height: auto;
         flex-direction: column;
     }
 
