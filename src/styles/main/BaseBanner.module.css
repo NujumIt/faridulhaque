@@ -28,7 +28,7 @@
 
 .baseBanner h5 {
     font-size: 1.7em;
-    color: #AE5620;
+    color: white;
     font-weight: 400;
     margin-bottom: 25px;
     position: relative;
@@ -116,6 +116,8 @@
 
 @media only screen and (min-width: 960px) and (max-width: 1279px) {
 
+
+
     .baseBanner>div:first-of-type {
         width: 30%;
 
@@ -133,15 +135,15 @@
     }
 
     .brownCoffee {
-        width: 90%;
-        height: 250px;
+        width: 80%;
+        height: 200px;
         position: absolute;
-        bottom: -170px;
+        bottom: -150px;
         z-index: 5;
         right: 0;
         left: 0;
         margin: auto;
-    
+
     }
 }
 
@@ -150,8 +152,20 @@
     .baseBanner {
         display: block;
         height: auto;
-        padding-bottom: 25px;
     }
+
+    .baseBanner>div:last-of-type img{
+        margin-top: 200px;
+    }
+    .baseBanner>div{
+        padding: 20px 0;
+    }
+    .baseBanner>div:last-of-type{
+        padding-bottom: 300px;
+        padding-top:200px;
+        height: auto;
+    }
+
 
     .brownPartTop {
         display: none;
@@ -213,7 +227,12 @@
         display: block;
         height: auto;
         padding-bottom: 25px;
+        position: static;
     }
+    .baseBanner>div:last-of-type img{
+        margin-top: 175px;
+    }
+   
 
     .brownPartTop {
         display: none;
@@ -241,8 +260,8 @@
         margin: 0 5%;
         height: 450px;
         position: static;
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 200px;
+        padding-bottom: 300px;
 
 
     }
@@ -252,7 +271,7 @@
         width: 90%;
         margin: 0 5%;
         padding: 50px 0;
-
+        z-index: 5;
         height: 400px;
         background-color: #612818;
 
@@ -264,6 +283,7 @@
     .brownCoffee {
         bottom: -125px;
         height: 150px;
+        z-index: 2;
     }
 }
 
@@ -272,10 +292,16 @@
         display: block;
         height: auto;
         padding-bottom: 25px;
+
     }
+
+
 
     .baseBanner>div {
         padding: 50px 0;
+    }
+    .baseBanner>div:last-of-type img{
+        margin-top: 100px;
     }
 
     .brownPartTop {
@@ -311,7 +337,7 @@
     .brownPart {
         position: relative;
         padding-top: 50px;
-
+        z-index: 10;
         height: 400px;
         width: 100%;
 
@@ -324,7 +350,7 @@
         height: 225px;
         position: absolute;
         bottom: -150px;
-        z-index: 5;
+        z-index: -1;
 
 
     }

@@ -68,14 +68,15 @@
     }
 
     .socialIcons>span {
-        width: 50px;
-        height: 60px;
+        width: 45px;
+        height: 55px;
         border-radius: 50%;
 
     }
 
     .socialIcons {
         width: 50%;
+        height: 100%;
         
     }
 }
@@ -106,6 +107,7 @@
 
     .socialIcons {
         width: 50%;
+        height: 100%;
         
     }
 }
@@ -137,6 +139,7 @@
 
     .socialIcons {
         width: 50%;
+        height: 100%;
         
     }
 }
@@ -182,7 +185,7 @@
 
     .socialIcons>span {
         width: 30px;
-        height: 40px;
+        height: 35px;
         border-radius: 50%;
 
     }

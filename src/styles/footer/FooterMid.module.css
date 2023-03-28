@@ -38,20 +38,22 @@
 }
 
 .footerMid p {
-    color: #A7B5BE;
+    color: white;
     font-size: 16px;
 }
 
 
 
 .footerMid a {
-    color: #A7B5BE;
+    color: white;
     margin-left: 5px;
+    margin-bottom: 5px;
     margin-bottom: 5px;
 }
 
 .footerMid a:hover {
-    color: #612818;
+    text-decoration: underline;
+    color: #C09457;
 }
 
 .gallery div:last-of-type {

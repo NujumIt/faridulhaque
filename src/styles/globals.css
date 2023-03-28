@@ -64,7 +64,7 @@ textarea::placeholder {
   bottom: 25px;
   border-radius: 50%;
   box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
-  background-color: #612818;
+  background-color: #C09457;
   cursor: pointer;
   z-index: 50000;
 }
@@ -98,7 +98,7 @@ textarea::placeholder {
   }
 
   .puller {
-    width: 59px;
+    width: 55px;
     height: 65px;
     right: 20px;
     bottom: 20px;
@@ -117,8 +117,8 @@ textarea::placeholder {
   }
 
   .puller {
-    width: 55px;
-    height: 60px;
+    width: 60px;
+    height: 55px;
     right: 17px;
     bottom: 17px;
   }
