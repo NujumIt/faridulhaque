@@ -82,42 +82,7 @@ const Banner = () => {
         ))}
       </div>
 
-      {/* <Swiper
-        loop={true}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay]}
-      >
-        <SwiperSlide>
-          <Image
-            style={{ width: "100%", height: "100%" }}
-            width={500}
-            height={500}
-            src="https://res.cloudinary.com/dfmdacf6w/image/upload/v1679650977/the_coffee/10004_u0s4mj.jpg"
-            alt="Slide 1"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            style={{ width: "100%", height: "100%" }}
-            width={500}
-            height={500}
-            src="https://res.cloudinary.com/dfmdacf6w/image/upload/v1679650977/the_coffee/10003_aqigab.jpg"
-            alt="Slide 2"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            style={{ width: "100%", height: "100%" }}
-            width={500}
-            height={500}
-            src="https://res.cloudinary.com/dfmdacf6w/image/upload/v1679650977/the_coffee/10005_cctglj.jpg"
-            alt="Slide 3"
-          />
-        </SwiperSlide>
-      </Swiper> */}
+
     </div>
   );
 };

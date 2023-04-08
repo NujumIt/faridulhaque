@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../../styles/main/BaseBanner.module.css";
-import brownCoffee from "../../../../public/assets/10053.svg";
+import brownCoffee from "../../../../public/assets/logobrown.svg";
 import greenPartImg from "../../../../public/assets/10018.png";
 import brownPartImg from "../../../../public/assets/10019.png";
 import yellowPartImg from "../../../../public/assets/10020.png";

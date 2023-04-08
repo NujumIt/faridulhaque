@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import styles from "../../../styles/main/Items.module.css";
-import brownCoffee from "../../../../public/assets/10053.svg";
+import brownCoffee from "../../../../public/assets/logobrown.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
